@@ -28,6 +28,11 @@ const questions = [
     },
     {
         type: 'input',
+        message: 'Enter Features:',
+        name: 'features',
+    },
+    {
+        type: 'input',
         message: 'Enter contribution guidlines:',
         name: 'contribution',
     },
@@ -37,10 +42,10 @@ const questions = [
         name: 'test_inst',
     },
     {
-        type: 'input',
+        type: 'list',
         message: 'Pick license:',
-        name: 'license_array',
-        choose: ["option a", "option b"]
+        name: 'license',
+        choices: ["MIT", "Apache 2.0", "GPL v3", "ISC" , "MPL 2.0", "none"]
     },
     {
         type: 'input',
@@ -58,6 +63,9 @@ const questions = [
 function writeToFile(fileName, data) {
     console.log(data)
     console.log(fileName)
+    fs.writeFile('./generated_readmes/README.md', genMarkdown.generateMarkdown(data), (err) =>
+        err ? console.error(err) : console.log('Success!')
+    );
 }
 
 // TODO: Create a function to initialize app
