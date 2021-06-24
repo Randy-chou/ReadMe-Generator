@@ -1,7 +1,7 @@
-# d 
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+# Title of Project 
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 ## Description
-d
+Generic description of project
 ## Table of Contents (Optional)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -12,20 +12,20 @@ d
 - [Credits](#credits)
 - [Questions](#questions)
 ## Installation
-d
+These are the instillation instructions
 ## Usage
-d
+Here is how to use the application
 ## License
- This project falls under the Apache 2.0 license.
-  https://opensource.org/licenses/Apache-2.0
+ This project falls under the ISC license.
+  https://opensource.org/licenses/ISC
 ## Features
-d
+Here is where you put all the features
 ## Contribute
-d
+Here is where you mention how to contribute to the project
 ## Tests
-d
+Here is where you put any tests
 ## Credits
-https://github.com/d
+https://github.com/Randy-chou
 ## Questions
 Please send any questions to this email.
-d
+Randy_Chou@brown.edu
